@@ -1,0 +1,503 @@
+Last login: Sun Sep  7 21:25:52 on ttys017
+(base) ozansafakkocak@mac ~ % ls
+Applications		Movies			The Coder's Apprentice
+Desktop			Music			Zotero
+Documents		Pictures		anaconda_projects
+Downloads		Public			github-classroom
+Library			THINK PYTHON
+(base) ozansafakkocak@mac ~ % cd Desktop
+(base) ozansafakkocak@mac Desktop % ls
+AKTARILAN		Diğer
+Block 1			TILBURG CALISMA arması
+(base) ozansafakkocak@mac Desktop % cd "TILBURG CALISMA"
+cd: no such file or directory: TILBURG CALISMA
+(base) ozansafakkocak@mac Desktop % CD "TILBURG CALISMA arması"
+/usr/bin/CD: line 4: cd: TILBURG CALISMA arması: Not a directory
+(base) ozansafakkocak@mac Desktop % cd AKTARILAN
+(base) ozansafakkocak@mac AKTARILAN % ls
+CV EN UZUN SON.pdf			Introduction to Statistics
+EM					OZAN BİLGİSAYAR YEDEK
+FELSEFE					TILBURG CALISMA
+Grammarly.sxAtCv4ejpyn924ejss409g0.dmg	français
+IBM Data Science
+(base) ozansafakkocak@mac AKTARILAN % cd "TILBURG CALISMA"
+(base) ozansafakkocak@mac TILBURG CALISMA % ls
+Master			Python Book
+Pre-Master		SPI ve Gerekli Belgeler
+(base) ozansafakkocak@mac TILBURG CALISMA % cd Master
+(base) ozansafakkocak@mac Master % cd "Block 1"
+(base) ozansafakkocak@mac Block 1 % ls
+Data Mining				RS - Reproducibility & Model Deployment
+Interactive Data Transformation		Statistics and Methodology
+Programming for Data Science
+(base) ozansafakkocak@mac Block 1 % cd "RS - Reproducibility & Model Deployment"
+(base) ozansafakkocak@mac RS - Reproducibility & Model Deployment % ls
+RMD				Weekly Report Template.docx
+Read Me File.docx		my_project_week2
+Week 1				portfolio-25-26-oskocak-cell
+Week 2
+(base) ozansafakkocak@mac RS - Reproducibility & Model Deployment % cd my_project_week2
+(base) ozansafakkocak@mac my_project_week2 % ls
+scripts
+(base) ozansafakkocak@mac my_project_week2 % cd scripts
+(base) ozansafakkocak@mac scripts % nano prep_data.sh
+
+(base) ozansafakkocak@mac scripts % chmod +x scripts/prep_data.sh
+./scripts/prep_data.sh
+chmod: scripts/prep_data.sh: No such file or directory
+zsh: no such file or directory: ./scripts/prep_data.sh
+(base) ozansafakkocak@mac scripts % chom +x ./prep_data.sh
+zsh: command not found: chom
+(base) ozansafakkocak@mac scripts % chomd +x ./prep_data.sh
+zsh: command not found: chomd
+(base) ozansafakkocak@mac scripts % chmod +x scripts/prep_data.sh
+./scripts/prep_data.sh
+chmod: scripts/prep_data.sh: No such file or directory
+zsh: no such file or directory: ./scripts/prep_data.sh
+(base) ozansafakkocak@mac scripts % ls -l
+total 8
+-rw-r--r--  1 ozansafakkocak  staff  454 Sep  7 22:32 prep_data.sh
+(base) ozansafakkocak@mac scripts % ls
+prep_data.sh
+(base) ozansafakkocak@mac scripts % chmod +x prep_data.sh./prep_data.sh
+
+chmod: prep_data.sh./prep_data.sh: No such file or directory
+(base) ozansafakkocak@mac scripts % chmod +x ./prep_data.sh
+
+(base) ozansafakkocak@mac scripts % chmod +x prep_data.sh
+(base) ozansafakkocak@mac scripts % chmod +x scripts/prep_data.sh
+
+chmod: scripts/prep_data.sh: No such file or directory
+(base) ozansafakkocak@mac scripts % chmod +x scripts/prep_data.sh
+chmod +x scripts/prep_data.sh 
+chmod: scripts/prep_data.sh: No such file or directory
+chmod: scripts/prep_data.sh: No such file or directory
+(base) ozansafakkocak@mac scripts % chmod +x scripts/prep_data.sh
+./scripts/prep_data.sh
+chmod: scripts/prep_data.sh: No such file or directory
+zsh: no such file or directory: ./scripts/prep_data.sh
+(base) ozansafakkocak@mac scripts % cd
+(base) ozansafakkocak@mac ~ % ls
+Applications		Movies			The Coder's Apprentice
+Desktop			Music			Zotero
+Documents		Pictures		anaconda_projects
+Downloads		Public			github-classroom
+Library			THINK PYTHON
+(base) ozansafakkocak@mac ~ % cd Desktop
+(base) ozansafakkocak@mac Desktop % ls
+AKTARILAN		Diğer
+Block 1			TILBURG CALISMA arması
+(base) ozansafakkocak@mac Desktop % cd AKTARILAN
+(base) ozansafakkocak@mac AKTARILAN % ls
+CV EN UZUN SON.pdf			Introduction to Statistics
+EM					OZAN BİLGİSAYAR YEDEK
+FELSEFE					TILBURG CALISMA
+Grammarly.sxAtCv4ejpyn924ejss409g0.dmg	français
+IBM Data Science
+(base) ozansafakkocak@mac AKTARILAN % cd "TILBURG CALISMA"
+(base) ozansafakkocak@mac TILBURG CALISMA % cd Master
+(base) ozansafakkocak@mac Master % cd "Blok 1"
+cd: no such file or directory: Blok 1
+(base) ozansafakkocak@mac Master % ls
+Block 1		Program Info
+(base) ozansafakkocak@mac Master % cd "Block 1"
+(base) ozansafakkocak@mac Block 1 % ls
+Data Mining				RS - Reproducibility & Model Deployment
+Interactive Data Transformation		Statistics and Methodology
+Programming for Data Science
+(base) ozansafakkocak@mac Block 1 % cd "RS - Reproducibility & Model Deployment"
+(base) ozansafakkocak@mac RS - Reproducibility & Model Deployment % ls
+RMD				Weekly Report Template.docx
+Read Me File.docx		my_project_week2
+Week 1				portfolio-25-26-oskocak-cell
+Week 2
+(base) ozansafakkocak@mac RS - Reproducibility & Model Deployment % cd my_project_week2
+(base) ozansafakkocak@mac my_project_week2 % chmod +x scripts/prep_data.sh
+./scripts/prep_data.sh
+[INFO] Preparing data directory structure...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  3716  100  3716    0     0  19854      0 --:--:-- --:--:-- --:--:-- 19871
+[INFO] Downloaded sample dataset: data/iris.csv
+[INFO] Added one synthetic row.
+[REPORT] Dataset now has      152 rows.
+[INFO] Done!
+(base) ozansafakkocak@mac my_project_week2 % git clone https://github.com/oskocak-cell/RMD.git
+Klonlama konumu: 'RMD'...
+remote: Enumerating objects: 30, done.
+remote: Counting objects: 100% (30/30), done.
+remote: Compressing objects: 100% (22/22), done.
+remote: Total 30 (delta 10), reused 25 (delta 7), pack-reused 0 (from 0)
+Nesneler alınıyor: 100% (30/30), 8.16 KiB | 8.16 MiB/sn, bitti.
+Deltalar çözülüyor: 100% (10/10), bitti.
+(base) ozansafakkocak@mac my_project_week2 % cd repo
+cd: no such file or directory: repo
+(base) ozansafakkocak@mac my_project_week2 % cd RMD
+(base) ozansafakkocak@mac RMD % git status
+Üzerinde bulunulan dal: main
+Dalınız 'origin/main' ile güncel.
+
+İşlenecek bir şey yok, çalışma ağacı temiz
+(base) ozansafakkocak@mac RMD % echo "Hello git" > hello.txt
+git add hello.txt
+(base) ozansafakkocak@mac RMD % git commit -m "feature: add hello.txt from termina"
+[main fa1c930] feature: add hello.txt from termina
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello.txt
+(base) ozansafakkocak@mac RMD % git reset hello.text
+onulmaz: Belirsiz argüman 'hello.text': Çalışma ağacında olmayan bilinmeyen revizyon veya yol.
+Yolları revizyonlardan ayırmak için '--' kullanın, şöyle:
+'git <komut> [<revizyon>...] -- [<dosya>...]'
+(base) ozansafakkocak@mac RMD % git push origin main
+Nesneler ortaya dökülüyor: 4, bitti.
+Nesneler sayılıyor: 100% (4/4), bitti.
+Delta sıkıştırması 8 iş parçacığı kullanıyor
+Nesneler sıkıştırılıyor: 100% (2/2), bitti.
+Nesneler yazılıyor: 100% (3/3), 356 bayt | 356.00 KiB/sn, bitti.
+Toplam 3 (delta 0), yeniden kullanılan 0 (delta 0), yeniden kullanılan paket 0 (0 konumundan)
+To https://github.com/oskocak-cell/RMD.git
+   c1fd1d1..fa1c930  main -> main
+(base) ozansafakkocak@mac RMD % git log
+commit fa1c930b649fa1abdfbcc3942761838d408c4524 (HEAD -> main, origin/main, origin/HEAD)
+Author: Ozan Safak Kocak <o.s.kocak@tilburguniversity.edu>
+Date:   Sun Sep 7 22:53:30 2025 +0200
+
+    feature: add hello.txt from termina
+
+commit c1fd1d1fc62bd8dc2b625e73afbc3a0506a2c97e
+Merge: 779c611 b211a70
+Author: Ozan Safak Kocak <o.s.kocak@tilburguniversity.edu>
+Date:   Sun Sep 7 12:36:34 2025 +0200
+
+    Merge pull request #3 from oskocak-cell/feature/add-cli
+    
+    Git Buddy Test
+
+commit b211a70f57b05fd322081b82655cdd4afb3b0e0e (origin/feature/add-cli)
+Author: Ozan Safak Kocak <o.s.kocak@tilburguniversity.edu>
+Date:   Sun Sep 7 12:28:01 2025 +0200
+
+    Git Buddy Test
+
+commit 779c6110961bdf38d3b02c82f773ee37ed9fc6fa
+Merge: cd39fa6 a610822
+Author: Ozan Safak Kocak <o.s.kocak@tilburguniversity.edu>
+Date:   Sun Sep 7 11:25:25 2025 +0200
+
+    Merge pull request #2 from oskocak-cell/fun-fact
+    
+    Add fun fact section to README
+
+commit a61082275cf26a68d0714d379ae65961fd5333eb
+Author: Ozan Safak Kocak <o.s.kocak@tilburguniversity.edu>
+Date:   Sun Sep 7 11:19:01 2025 +0200
+
+    Add fun fact section to README
+
+commit cd39fa67b68100171b7a2604dc0c376e951945e8
+Author: Ozan Safak Kocak <o.s.kocak@tilburguniversity.edu>
+Date:   Sun Sep 7 01:36:52 2025 +0200
+
+    Update README with intro draft (see #1)
+
+commit 81ec91fca1d7aa5fc9a56bfa5f7eaf191c3df8aa
+Author: Ozan Safak Kocak <o.s.kocak@tilburguniversity.edu>
+Date:   Sun Sep 7 01:29:44 2025 +0200
+
+    Add About Me section to README (closes #1)
+
+commit ad4b9cf3ebec0678a47d54ffaa762b220635c81b
+Author: Ozan Safak Kocak <o.s.kocak@tilburguniversity.edu>
+Date:   Sun Sep 7 00:48:14 2025 +0200
+
+    Update README.md via web
+
+commit f6c479a44675ee408fb5707acf9e3366cb3af4d6
+Author: Ozan Safak Kocak <o.s.kocak@tilburguniversity.edu>
+Date:   Sun Sep 7 00:42:43 2025 +0200
+
+    Update README with some more details
+
+commit d719b3bbc68a186291d1c71fe6c33f7f86f856ec
+Author: Ozan Safak Kocak <o.s.kocak@tilburguniversity.edu>
+Date:   Sun Sep 7 00:16:38 2025 +0200
+
+    Update README.md
+
+commit 27481fbab8b0df827c10d549720312e26dc991ae
+Author: Ozan Safak Kocak <o.s.kocak@tilburguniversity.edu>
+Date:   Sun Sep 7 00:13:57 2025 +0200
+
+    Initial commit
+...skipping...
+commit ad4b9cf3ebec0678a47d54ffaa762b220635c81b
+Author: Ozan Safak Kocak <o.s.kocak@tilburguniversity.edu>
+Date:   Sun Sep 7 00:48:14 2025 +0200
+
+    Update README.md via web
+
+commit f6c479a44675ee408fb5707acf9e3366cb3af4d6
+Author: Ozan Safak Kocak <o.s.kocak@tilburguniversity.edu>
+Date:   Sun Sep 7 00:42:43 2025 +0200
+
+    Update README with some more details
+
+commit d719b3bbc68a186291d1c71fe6c33f7f86f856ec
+Author: Ozan Safak Kocak <o.s.kocak@tilburguniversity.edu>
+Date:   Sun Sep 7 00:16:38 2025 +0200
+
+    Update README.md
+
+commit 27481fbab8b0df827c10d549720312e26dc991ae
+Author: Ozan Safak Kocak <o.s.kocak@tilburguniversity.edu>
+Date:   Sun Sep 7 00:13:57 2025 +0200
+
+    Initial commit
+...skipping...
+commit ad4b9cf3ebec0678a47d54ffaa762b220635c81b
+Author: Ozan Safak Kocak <o.s.kocak@tilburguniversity.edu>
+Date:   Sun Sep 7 00:48:14 2025 +0200
+
+    Update README.md via web
+
+commit f6c479a44675ee408fb5707acf9e3366cb3af4d6
+Author: Ozan Safak Kocak <o.s.kocak@tilburguniversity.edu>
+Date:   Sun Sep 7 00:42:43 2025 +0200
+
+    Update README with some more details
+
+commit d719b3bbc68a186291d1c71fe6c33f7f86f856ec
+Author: Ozan Safak Kocak <o.s.kocak@tilburguniversity.edu>
+Date:   Sun Sep 7 00:16:38 2025 +0200
+
+    Update README.md
+
+commit 27481fbab8b0df827c10d549720312e26dc991ae
+Author: Ozan Safak Kocak <o.s.kocak@tilburguniversity.edu>
+Date:   Sun Sep 7 00:13:57 2025 +0200
+
+    Initial commit
+(base) ozansafakkocak@mac RMD % git remote -v
+origin	https://github.com/oskocak-cell/RMD.git (fetch)
+origin	https://github.com/oskocak-cell/RMD.git (push)
+(base) ozansafakkocak@mac RMD % git pull origin main
+Şu konumdan: https://github.com/oskocak-cell/RMD
+ * branch            main       -> FETCH_HEAD
+Tümü güncel.
+(base) ozansafakkocak@mac RMD % target: dependencies
+        commands
+zsh: command not found: target:
+zsh: command not found: commands
+(base) ozansafakkocak@mac RMD % make --version
+GNU Make 3.81
+Copyright (C) 2006  Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.
+There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE.
+
+This program built for i386-apple-darwin11.3.0
+(base) ozansafakkocak@mac RMD % pwd
+/Users/ozansafakkocak/Desktop/AKTARILAN/TILBURG CALISMA/Master/Block 1/RS - Reproducibility & Model Deployment/my_project_week2/RMD
+(base) ozansafakkocak@mac RMD % cd ..
+(base) ozansafakkocak@mac my_project_week2 % prep: scripts/prep_data.sh
+        ./$<
+zsh: parse error near `\n'
+(base) ozansafakkocak@mac my_project_week2 % prep: scripts/prep_data.sh
+zsh: command not found: prep:
+(base) ozansafakkocak@mac my_project_week2 % make --version
+GNU Make 3.81
+Copyright (C) 2006  Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.
+There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE.
+
+This program built for i386-apple-darwin11.3.0
+(base) ozansafakkocak@mac my_project_week2 % prep: scripts/prep_data.sh
+        ./$<
+zsh: parse error near `\n'
+(base) ozansafakkocak@mac my_project_week2 % prep: scripts/prep_data.sh ./$<
+zsh: parse error near `\n'
+(base) ozansafakkocak@mac my_project_week2 % prep: scripts/prep_data.sh
+        ./$<
+zsh: parse error near `\n'
+(base) ozansafakkocak@mac my_project_week2 % prep: scripts/prep_data.sh
+        ./$<
+zsh: parse error near `\n'
+(base) ozansafakkocak@mac my_project_week2 % cd scipts
+cd: no such file or directory: scipts
+(base) ozansafakkocak@mac my_project_week2 % ls
+RMD	data	scripts
+(base) ozansafakkocak@mac my_project_week2 % cd scripts
+(base) ozansafakkocak@mac scripts % prep: scripts/prep_data.sh
+        ./$<
+zsh: parse error near `\n'
+(base) ozansafakkocak@mac scripts % cd ..
+(base) ozansafakkocak@mac my_project_week2 % xcode-select --install
+xcode-select: note: Command line tools are already installed. Use "Software Update" in System Settings or the softwareupdate command line interface to install updates
+(base) ozansafakkocak@mac my_project_week2 % prep: scripts/prep_data.sh
+        ./$<
+zsh: parse error near `\n'
+(base) ozansafakkocak@mac my_project_week2 % prep:
+zsh: command not found: prep:
+(base) ozansafakkocak@mac my_project_week2 % prep: scripts/prep_data.sh
+zsh: command not found: prep:
+(base) ozansafakkocak@mac my_project_week2 % prep:
+zsh: command not found: prep:
+(base) ozansafakkocak@mac my_project_week2 % prep:
+    ./scripts/prep_data.sh
+
+zsh: command not found: prep:
+[INFO] Preparing data directory structure...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  3716  100  3716    0     0  22191      0 --:--:-- --:--:-- --:--:-- 22251
+[INFO] Downloaded sample dataset: data/iris.csv
+[INFO] Added one synthetic row.
+[REPORT] Dataset now has      152 rows.
+[INFO] Done!
+(base) ozansafakkocak@mac my_project_week2 % prep: scripts/prep_data.sh
+        ./$<
+
+zsh: parse error near `\n'
+(base) ozansafakkocak@mac my_project_week2 % pwd
+/Users/ozansafakkocak/Desktop/AKTARILAN/TILBURG CALISMA/Master/Block 1/RS - Reproducibility & Model Deployment/my_project_week2
+(base) ozansafakkocak@mac my_project_week2 % nano Makefile
+(base) ozansafakkocak@mac my_project_week2 % nano Makefile
+(base) ozansafakkocak@mac my_project_week2 % make clean
+rm -r data
+(base) ozansafakkocak@mac my_project_week2 % nano Makefile
+(base) ozansafakkocak@mac my_project_week2 % nano Makefile
+(base) ozansafakkocak@mac my_project_week2 % make prep
+./scripts/prep_data.sh
+[INFO] Preparing data directory structure...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  3716  100  3716    0     0  22042      0 --:--:-- --:--:-- --:--:-- 22119
+[INFO] Downloaded sample dataset: data/iris.csv
+[INFO] Added one synthetic row.
+[REPORT] Dataset now has      152 rows.
+[INFO] Done!
+(base) ozansafakkocak@mac my_project_week2 % make clean
+rm -r data
+(base) ozansafakkocak@mac my_project_week2 % make all
+rm -r data
+rm: data: No such file or directory
+make: *** [clean] Error 1
+(base) ozansafakkocak@mac my_project_week2 % make all
+rm -r data
+rm: data: No such file or directory
+make: *** [clean] Error 1
+(base) ozansafakkocak@mac my_project_week2 % make prep
+./scripts/prep_data.sh
+[INFO] Preparing data directory structure...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  3716  100  3716    0     0  91125      0 --:--:-- --:--:-- --:--:-- 92900
+[INFO] Downloaded sample dataset: data/iris.csv
+[INFO] Added one synthetic row.
+[REPORT] Dataset now has      152 rows.
+[INFO] Done!
+(base) ozansafakkocak@mac my_project_week2 % make all
+rm -r data
+./scripts/prep_data.sh
+[INFO] Preparing data directory structure...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  3716  100  3716    0     0  20116      0 --:--:-- --:--:-- --:--:-- 20195
+[INFO] Downloaded sample dataset: data/iris.csv
+[INFO] Added one synthetic row.
+[REPORT] Dataset now has      152 rows.
+[INFO] Done!
+(base) ozansafakkocak@mac my_project_week2 % make help
+make prep  - Run data preparation
+make clean - Remove data files
+make all   - Clean + Prep
+(base) ozansafakkocak@mac my_project_week2 % pip install ruff
+Collecting ruff
+  Downloading ruff-0.12.12-py3-none-macosx_11_0_arm64.whl.metadata (25 kB)
+Downloading ruff-0.12.12-py3-none-macosx_11_0_arm64.whl (12.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.0/12.0 MB 10.8 MB/s eta 0:00:00
+Installing collected packages: ruff
+Successfully installed ruff-0.12.12
+(base) ozansafakkocak@mac my_project_week2 % ruff --version
+ruff 0.12.12
+(base) ozansafakkocak@mac my_project_week2 % ruff check example.py
+E902 No such file or directory (os error 2)
+--> example.py:1:1
+
+Found 1 error.
+(base) ozansafakkocak@mac my_project_week2 % ruff check example.py
+E401 [*] Multiple imports on one line
+ --> example.py:1:1
+  |
+1 | import os, sys
+  | ^^^^^^^^^^^^^^
+2 |
+3 | def add(a,b): return a+b
+  |
+help: Split imports
+
+F401 [*] `os` imported but unused
+ --> example.py:1:8
+  |
+1 | import os, sys
+  |        ^^
+2 |
+3 | def add(a,b): return a+b
+  |
+help: Remove unused import
+
+F401 [*] `sys` imported but unused
+ --> example.py:1:12
+  |
+1 | import os, sys
+  |            ^^^
+2 |
+3 | def add(a,b): return a+b
+  |
+help: Remove unused import
+
+Found 3 errors.
+[*] 3 fixable with the `--fix` option.
+(base) ozansafakkocak@mac my_project_week2 % ruff check example.py --fix
+Found 3 errors (3 fixed, 0 remaining).
+(base) ozansafakkocak@mac my_project_week2 % cd ..
+(base) ozansafakkocak@mac RS - Reproducibility & Model Deployment % ls
+General Info			my_project_week2
+Week 1				portfolio-25-26-oskocak-cell
+Week 2
+(base) ozansafakkocak@mac RS - Reproducibility & Model Deployment % cd my_project_week2
+(base) ozansafakkocak@mac my_project_week2 % nano pyproject.toml
+(base) ozansafakkocak@mac my_project_week2 % ruff check.
+error: unrecognized subcommand 'check.'
+
+  tip: a similar subcommand exists: 'check'
+
+Usage: ruff [OPTIONS] <COMMAND>
+
+For more information, try '--help'.
+(base) ozansafakkocak@mac my_project_week2 % ruff check.
+error: unrecognized subcommand 'check.'
+
+  tip: a similar subcommand exists: 'check'
+
+Usage: ruff [OPTIONS] <COMMAND>
+
+For more information, try '--help'.
+(base) ozansafakkocak@mac my_project_week2 % ruff check .
+warning: The top-level linter settings are deprecated in favour of their counterparts in the `lint` section. Please update the following options in `pyproject.toml`:
+  - 'ignore' -> 'lint.ignore'
+  - 'select' -> 'lint.select'
+W292 [*] No newline at end of file
+ --> example.py:6:29
+  |
+4 | x=  1+2
+5 |
+6 | print("The sum:", add(x,5) )
+  |                             ^
+  |
+help: Add trailing newline
+
+Found 1 error.
+[*] 1 fixable with the `--fix` option.
+(base) ozansafakkocak@mac my_project_week2 % 
